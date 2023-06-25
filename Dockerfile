@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.10 as build
 WORKDIR /code 
 COPY . . 
 RUN chmod 777 ./public
